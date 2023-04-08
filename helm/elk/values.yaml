@@ -21,8 +21,8 @@ roles:
   - remote_cluster_client
   - transform
 
-replicas: 3
-minimumMasterNodes: 2
+replicas: 1
+minimumMasterNodes: 1
 
 esMajorVersion: ""
 
@@ -70,7 +70,7 @@ secretMounts: []
 #    defaultMode: 0755
 
 hostAliases: []
-#- ip: "127.0.0.1"
+ip: "127.0.0.1"
 #  hostnames:
 #  - "foo.local"
 #  - "bar.local"
